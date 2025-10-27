@@ -41,7 +41,8 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
 
 ## 📁 Estrutura do Repositório
 ```
-/ ├── php/ (Arquivos de backend PHP, CRUD e lógica de conexão) │ ├── aluno.php
+├── php/ (Arquivos de backend PHP, CRUD e lógica de conexão)
+  │ ├── aluno.php
   │ ├── avaliacao.php
   │ ├── avaliador.php
   │ ├── orientador.php (Arquivos confirmados pela estrutura do menu) 
@@ -56,7 +57,7 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
 ├── images/ (Imagens do projeto, como logos) 
 
 ├── relatorio/ (Contém a estrutura da biblioteca Dompdf (vendor/autoload)) 
-  ├── index.html (Página inicial simples) ├── index_sidebar.html (Menu principal com sidebar Bootstrap) 
+│ ├── index.html (Página inicial simples) ├── index_sidebar.html (Menu principal com sidebar Bootstrap) 
   
 ├── banco/ (Banco de dados MySQL)
 │ ├── colegio.sql (Script de criação das tabelas e banco de dados)```
