@@ -40,6 +40,7 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
 | **Framework CSS** | **Bootstrap v5+** | Utilizado para garantir o design responsivo e a estrutura de menus (Sidebar). |
 
 ## 📁 Estrutura do Repositório
+```
 / ├── php/ (Arquivos de backend PHP, CRUD e lógica de conexão) │ ├── aluno.php
   │ ├── avaliacao.php
   │ ├── avaliador.php
@@ -58,4 +59,4 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
   ├── index.html (Página inicial simples) ├── index_sidebar.html (Menu principal com sidebar Bootstrap) 
   
 ├── banco/ (Banco de dados MySQL)
-│ ├── colegio.sql (Script de criação das tabelas e banco de dados) └──
+│ ├── colegio.sql (Script de criação das tabelas e banco de dados)```
