@@ -97,8 +97,7 @@ Este projeto é um sistema web local e requer um ambiente de servidor local para
 
 | Função | Nome | Contato |
 | :--- | :--- | :--- |
-| **Desenvolvedor(a) Principal** | [Seu Nome Completo] | [Link do LinkedIn ou GitHub] |
-| **Orientador(a)** | [Nome do Professor Orientador] | |
-
+| **Desenvolvedor(a) Principal** | João Pedro de Assunção Rego | https://github.com/JoaoAssRego
+| **Orientador(a)** | Alexandre Domingues Gonçalves
 ---
-*Este projeto foi desenvolvido com orgulho em [Ano do TCC], representando a conclusão do curso Técnico em Informática.*
+*Este projeto foi desenvolvido com orgulho em 2024, representando a conclusão do curso Técnico em Informática.*
