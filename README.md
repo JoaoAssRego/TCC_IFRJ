@@ -60,7 +60,8 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
 │ ├── index.html (Página inicial simples) ├── index_sidebar.html (Menu principal com sidebar Bootstrap) 
   
 ├── banco/ (Banco de dados MySQL)
-│ ├── colegio.sql (Script de criação das tabelas e banco de dados)```
+│ ├── colegio.sql (Script de criação das tabelas e banco de dados)
+```
 
 ## 🚀 Como Executar o Projeto
 
