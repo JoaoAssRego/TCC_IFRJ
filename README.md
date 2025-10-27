@@ -61,3 +61,43 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
   
 ├── banco/ (Banco de dados MySQL)
 │ ├── colegio.sql (Script de criação das tabelas e banco de dados)```
+
+## 🚀 Como Executar o Projeto
+
+Este projeto é um sistema web local e requer um ambiente de servidor local para funcionar corretamente.
+
+### Pré-requisitos
+* Servidor Web Local (Ex: **XAMPP**, **WAMP**, **MAMP** ou similar).
+* PHP (Recomendado PHP 7.x ou 8.x).
+* MySQL/MariaDB.
+
+### Passos de Instalação
+
+1.  **Clone o Repositório:**
+    ```bash
+    git clone [URL_DO_SEU_REPOSITORIO]
+    ```
+2.  **Configurar Ambiente:**
+    * Mova o projeto clonado para a pasta de documentos do seu servidor local (Ex: `htdocs` no XAMPP).
+3.  **Configurar Banco de Dados:**
+    * Abra o painel de administração do MySQL (Ex: phpMyAdmin).
+    * Crie um novo banco de dados chamado **`colegio`**.
+    * Importe o arquivo **`colegio.sql`** (localizado na raiz do projeto) para o banco de dados `colegio`.
+4.  **Verificar Conexão:**
+    * O arquivo `php/conexao.php` está configurado para:
+        * **Host:** `localhost`
+        * **User:** `root`
+        * **Pass:** `` (Vazio)
+    * **Observação:** O script `colegio.sql` cria o BD `colegio`, mas o `conexao.php` busca por `armazenamento_tcc`. Se o sistema não funcionar, ajuste o nome do BD no `conexao.php` para **`colegio`**.
+5.  **Acessar:**
+    * Abra seu navegador e acesse o projeto (Ex: `http://localhost/[NomeDaPastaDoProjeto]/index.html`).
+
+## 👨‍💻 Autores
+
+| Função | Nome | Contato |
+| :--- | :--- | :--- |
+| **Desenvolvedor(a) Principal** | [Seu Nome Completo] | [Link do LinkedIn ou GitHub] |
+| **Orientador(a)** | [Nome do Professor Orientador] | |
+
+---
+*Este projeto foi desenvolvido com orgulho em [Ano do TCC], representando a conclusão do curso Técnico em Informática.*
