@@ -40,3 +40,12 @@ O sistema é baseado em módulos de CRUD para as seguintes entidades:
 | **Framework CSS** | **Bootstrap v5+** | Utilizado para garantir o design responsivo e a estrutura de menus (Sidebar). |
 
 ## 📁 Estrutura do Repositório
+/ ├── php/ (Arquivos de backend PHP, CRUD e lógica de conexão) │ ├── aluno.php
+
+│ ├── avaliacao.php
+
+│ ├── avaliador.php
+
+│ ├── orientador.php (Arquivos confirmados pela estrutura do menu) │ ├── tcc.php
+
+│ ├── conexao.php (Configuração de conexão com o banco de dados) │ └── *_gerar_pdf.php (Arquivos para geração de relatórios em PDF) ├── css/ (Arquivos de estilo, incluindo Bootstrap e estilos customizados) ├── js/ (Arquivos de script JavaScript) ├── images/ (Imagens do projeto, como logos) ├── relatorio/ (Contém a estrutura da biblioteca Dompdf (vendor/autoload)) ├── index.html (Página inicial simples) ├── index_sidebar.html (Menu principal com sidebar Bootstrap) ├── colegio.sql (Script de criação das tabelas e banco de dados) └──
